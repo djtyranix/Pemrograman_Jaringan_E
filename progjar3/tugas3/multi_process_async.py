@@ -14,8 +14,8 @@ def kirim_server():
         download_gambar(urls[k],k)
         print(f"mendownload {urls[k]}")
         #bagian ini merupakan bagian yang mengistruksikan eksekusi fungsi download gambar secara multiprocess
-        UDP_IP_ADDRESS = "192.168.122.217"
-        UDP_IP_ADDRESS2 = "192.168.122.254"
+        UDP_IP_ADDRESS = "192.168.122.211"
+        UDP_IP_ADDRESS2 = "192.168.122.157"
         PORT = 5758
         if temp == 0:
             texec[k] = task_pool.apply_async(func=kirim_gambar, args=(UDP_IP_ADDRESS,PORT,f"{k}.jpg"))

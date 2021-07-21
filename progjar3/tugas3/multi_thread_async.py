@@ -14,8 +14,8 @@ def kirim_server():
         download_gambar(urls[k], k)
         print(f"mendownload {urls[k]}")
         waktu = time.time()
-        UDP_IP_ADDRESS = "192.168.122.217"
-        UDP_IP_ADDRESS2 = "192.168.122.254"
+        UDP_IP_ADDRESS = "192.168.122.211"
+        UDP_IP_ADDRESS2 = "192.168.122.157"
         PORT = 5758
         #bagian ini merupakan bagian yang mengistruksikan eksekusi fungsi download gambar secara multithread
         if temp == 0:

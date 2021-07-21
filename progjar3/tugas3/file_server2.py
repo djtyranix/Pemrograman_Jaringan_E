@@ -1,6 +1,6 @@
 import socket
 
-UDP_IP_ADDRESS = '192.168.122.254'
+UDP_IP_ADDRESS = '192.168.122.157'
 UDP_PORT = 5758
 
 serverSock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
