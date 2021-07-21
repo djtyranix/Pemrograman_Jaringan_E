@@ -6,7 +6,7 @@ from glob import glob
 
 class FileInterface:
     def __init__(self):
-        os.chdir('files/')
+        os.chdir('../files/')
 
     def list(self):
         try:
